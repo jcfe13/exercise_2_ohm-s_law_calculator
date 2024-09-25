@@ -9,5 +9,6 @@ if missing_value == "1":
     voltage = current * resistance
     print(f"The value of voltage is: {round(voltage, 2)} Volt/s")
 # 3. If the user selects '2', proceed to calculate current (I = V / R)
+elif missing_value == "2":
 # 4. If the user selects '3', proceed to calculate resistance (R = V / I)
 # 5. If the user enters anything other than '1', '2', or '3', display an error
