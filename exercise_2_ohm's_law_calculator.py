@@ -29,7 +29,8 @@ elif missing_value == "3":
     else:
         resistance = voltage / current
         print(f"The value of resistance is: {round(resistance, 2)} Ohm/s")
-        
+
 # 5. If the user enters anything other than '1', '2', or '3', display an error
 else:
     print("\n\033[91mInvalid character/number!\033[0m")
+    
