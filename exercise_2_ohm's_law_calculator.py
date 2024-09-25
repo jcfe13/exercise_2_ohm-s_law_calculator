@@ -12,5 +12,7 @@ if missing_value == "1":
 elif missing_value == "2":
     voltage = float(input("\nInput your Voltage: "))
     resistance = float(input("Input your Resistance: "))
+    if resistance == 0:
+        print("\n\033[91mZeroDivisionError: Division by zero is not a valid operation.\033[0m")
 # 4. If the user selects '3', proceed to calculate resistance (R = V / I)
 # 5. If the user enters anything other than '1', '2', or '3', display an error
