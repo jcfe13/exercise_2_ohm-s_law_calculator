@@ -23,4 +23,6 @@ elif missing_value == "3":
     current = float(input("Input your Current: "))
     if current == 0:
         print("\n\033[91mZeroDivisionError: Division by zero is not a valid operation.\033[0m")
+    else:
+        resistance = voltage / current
 # 5. If the user enters anything other than '1', '2', or '3', display an error
