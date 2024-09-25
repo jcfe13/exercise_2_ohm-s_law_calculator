@@ -1,4 +1,6 @@
 # 1. Ask the user what they want to calculate in Ohm's Law
+print("Welcome to simple Ohm's Law Calculator:")
+print("1. Voltage(V)\n2. Current(I)\n3. Resistance(R)")
 # 2. If the user input '1', it will ask to input values to solve voltage (V = I * R)
 # 3. If the user selects '2', proceed to calculate current (I = V / R)
 # 4. If the user selects '3', proceed to calculate resistance (R = V / I)
