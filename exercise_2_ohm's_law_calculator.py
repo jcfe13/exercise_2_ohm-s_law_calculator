@@ -16,5 +16,6 @@ elif missing_value == "2":
         print("\n\033[91mZeroDivisionError: Division by zero is not a valid operation.\033[0m")
     else:
         current = voltage / resistance
+        print(f"The value of current is: {round(current, 2)} Ampere/s")
 # 4. If the user selects '3', proceed to calculate resistance (R = V / I)
 # 5. If the user enters anything other than '1', '2', or '3', display an error
